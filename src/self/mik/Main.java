@@ -3,6 +3,8 @@ package self.mik;
 import self.mik.interviewbit.microsoft.MajorityElement;
 import self.mik.interviewbit.microsoft.MaxSubMatrix;
 import self.mik.interviewbit.microsoft.CountingIsland;
+import self.mik.self.mik.sorting.SortingAlgorithms;
+
 
 public class Main {
 
@@ -17,5 +19,8 @@ public class Main {
 
         CountingIsland obj3 = new CountingIsland();
         obj3.testCountingIsland();
+        /**********************************************/
+        SortingAlgorithms obj4 = new SortingAlgorithms();
+        obj4.testSorting();
     }
 }

@@ -1,5 +1,9 @@
 package self.mik.interviewbit.microsoft;
+/*
+* Maximum size square sub-matrix with all 1s
+Given a binary matrix, find out the maximum size square sub-matrix with all 1s.
 
+* */
 public class MaxSubMatrix {
 
     private int findMin(int x, int y, int z) {

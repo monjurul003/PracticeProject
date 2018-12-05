@@ -1,14 +1,13 @@
 package self.mik;
 
-import self.mik.interviewbit.microsoft.MajorityElement;
-import self.mik.interviewbit.microsoft.MaxSubMatrix;
-import self.mik.interviewbit.microsoft.CountingIsland;
+import self.mik.interviewbit.microsoft.*;
 import self.mik.self.mik.sorting.SortingAlgorithms;
 
 
 public class Main {
 
     public static void main(String[] args) {
+
         // write your code here
         MajorityElement obj = new MajorityElement();
         obj.testMajorityElement();
@@ -22,5 +21,12 @@ public class Main {
         /**********************************************/
         SortingAlgorithms obj4 = new SortingAlgorithms();
         obj4.testSorting();
+
+        LeetCodeEasyProblems lProb = new LeetCodeEasyProblems();
+        System.out.println(lProb.reverseString());
+
+        EditDistance eDist = new EditDistance();
+        eDist.testEditDistance();
+
     }
 }

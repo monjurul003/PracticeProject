@@ -1,8 +1,6 @@
 package self.mik;
 
-import self.mik.interviewbit.microsoft.MajorityElement;
-import self.mik.interviewbit.microsoft.MaxSubMatrix;
-import self.mik.interviewbit.microsoft.CountingIsland;
+import self.mik.interviewbit.microsoft.*;
 import self.mik.self.mik.sorting.SortingAlgorithms;
 
 
@@ -22,5 +20,11 @@ public class Main {
         /**********************************************/
         SortingAlgorithms obj4 = new SortingAlgorithms();
         obj4.testSorting();
+
+        LeetCodeProblem28 probObj = new LeetCodeProblem28();
+        probObj.teststrStr();
+
+        EditDist eObj = new EditDist();
+        eObj.testEditDistance();
     }
 }
